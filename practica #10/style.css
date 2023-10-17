@@ -1,0 +1,101 @@
+.container{
+max-width: 600px;
+margin: 0 auto;
+padding: 20px;
+}
+
+.textoUno{
+ font-size: 18px;
+ font-weight: bold;
+ color: #f0652e;
+}
+
+.texto{
+    font-size: 16px;
+    color: #c240ce;
+}
+
+.contenido{
+    background-color: #00ff62;
+    color:#fff;
+    padding: 10px;
+    font-weight: bold;
+
+}
+
+.border-contenido{
+background-color: #ffee00;
+color: #0f0c0c;
+padding: 10px;
+font-weight: bold;
+border: rgb(17, 17, 17)  1px solid;
+}
+
+.tabla-Principal{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tabla-Principal th{
+    background-color: #0a4044;
+    color: #ffff;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+    border: rgb(17, 17, 17) solid;
+
+}
+
+.tabla-Principal td{
+    text-align: center;
+    padding: 5px;
+    background-color: #b5eca7;
+    color: #1a1616;
+    border: rgb(17, 17, 17);
+}
+
+.boton{
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+.border-Boton{
+    background-color: transparent;
+    color: #f86969;
+    padding: 10px 20px ;
+    cursor: pointer;
+}
+
+.table-primary{
+    background-color: #8a5062;
+    color: #000;
+    font-weight: bold;
+}
+
+.table-striped tbody tr:nth-child(odd){
+    background-color: #ec6d6d;
+    text-align: center;
+}
+.boton{
+    background-color: #ca23e0;
+}
+
+.border-boton{
+    background-color: transparent;
+    color: #1a0c0b;
+    border: 2px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.enlace{
+    color: #4708db;
+    text-decoration: none;
+}
+
+.link-primary:hover{
+    text-decoration: underline;
+    
+}
