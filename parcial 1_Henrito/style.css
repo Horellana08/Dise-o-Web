@@ -1,0 +1,83 @@
+/* menu */
+
+
+nav {
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 30px;
+}
+
+li {
+    display: inline;
+    margin: 20px;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #0b07ff; /* Cambia el color del texto al pasar el mouse sobre los enlaces */
+}
+/*  formulario */
+
+.formulario {
+    width: 700px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+label,
+input,
+textarea {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #250dff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #020502;
+}
+
+  /* Footer */
+  footer{
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+  }
+.container{
+    justify-content: space-between;
+    align-items: center;
+
+}
+  /* Estilos CSS */
+@media (min-width: 768px) {
+    .formulario {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .menu{
+       display: flex;
+       align-items: center;
+       justify-content: space-between;
+    }
+
+}
